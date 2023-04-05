@@ -40,7 +40,7 @@ function addCarito() {
     compraImg.classList.add('cart-image')
     cartContainer.appendChild(compraImg)
     const imgcart = document.createElement('img')
-    imgcart.src = '/images/image-product-1.jpg'
+    imgcart.src = 'images/image-product-1.jpg'
     compraImg.appendChild(imgcart)
 
     const compraContainer = document.createElement('div')
@@ -72,7 +72,7 @@ function addCarito() {
     const imgDelet = document.createElement('img')
     imgDelet.setAttribute('id','delete')
     imgDelet.classList.add('img__logo')
-    imgDelet.src = '/images/icon-delete.svg'
+    imgDelet.src = 'images/icon-delete.svg'
     compraImgDelet.appendChild(imgDelet)
     
 
